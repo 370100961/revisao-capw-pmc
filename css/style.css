@@ -14,14 +14,24 @@ main{
     margin: 20px auto;
     background-color: #f9f9f9;
     padding: 0px 20px;
+    position: relative;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
 }
 
 header{
-    position: sticky;
-    top: 0px;
-    left: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 20px 0px;
-    border-bottom: 1px solid #1db5ba
+}
+
+header h1{
+    padding: 0px 20px;
 }
 
 .disciplina{
