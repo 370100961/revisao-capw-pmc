@@ -28,14 +28,57 @@ header{
     left: 0;
     width: 100%;
     padding: 20px 0px;
+    background-color: #410CD9;
+}
+
+#conteudo {
+    height: 480px;
+    margin-top: 80px;
+    overflow: auto;
+}
+
+#conteudo > section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #410CD9;
+}
+
+footer button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 12px;
+}
+
+footer button img{
+    width: 32px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
 }
 
 header h1{
     padding: 0px 20px;
+    color: #fff;
 }
 
 .disciplina{
     display: flex;
+    align-items: center;
 }
 
 .disciplina .carga{
