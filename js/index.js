@@ -21,3 +21,13 @@ btnAvancar.addEventListener("click", function(){
 btnVoltar.addEventListener("click", function(){
     rolarParaSecao(indiceAtual - 1);
 })
+
+
+const botoesLikes 
+    = document.querySelectorAll('.like');
+
+botoesLikes.forEach(btn => {
+    btn.addEventListener("click", function(){
+        this.classList.toggle("curti")
+    });
+});
